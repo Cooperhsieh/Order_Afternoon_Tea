@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB2B706B25518E2F000ED754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B706A25518E2F000ED754 /* AppDelegate.swift */; };
+		DB2B706D25518E2F000ED754 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B706C25518E2F000ED754 /* SceneDelegate.swift */; };
+		DB2B706F25518E2F000ED754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B706E25518E2F000ED754 /* ViewController.swift */; };
+		DB2B707225518E2F000ED754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2B707025518E2F000ED754 /* Main.storyboard */; };
+		DB2B707425518E30000ED754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2B707325518E30000ED754 /* Assets.xcassets */; };
+		DB2B707725518E30000ED754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2B707525518E30000ED754 /* LaunchScreen.storyboard */; };
+		DB2B708225518E31000ED754 /* Order_Afternoon_TeaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B708125518E31000ED754 /* Order_Afternoon_TeaTests.swift */; };
+		DB2B708D25518E31000ED754 /* Order_Afternoon_TeaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B708C25518E31000ED754 /* Order_Afternoon_TeaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB2B707E25518E31000ED754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2B705F25518E2F000ED754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2B706625518E2F000ED754;
+			remoteInfo = Order_Afternoon_Tea;
+		};
+		DB2B708925518E31000ED754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2B705F25518E2F000ED754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2B706625518E2F000ED754;
+			remoteInfo = Order_Afternoon_Tea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB2B706725518E2F000ED754 /* Order_Afternoon_Tea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Order_Afternoon_Tea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2B706A25518E2F000ED754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB2B706C25518E2F000ED754 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB2B706E25518E2F000ED754 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB2B707125518E2F000ED754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB2B707325518E30000ED754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB2B707625518E30000ED754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB2B707825518E30000ED754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2B707D25518E31000ED754 /* Order_Afternoon_TeaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Order_Afternoon_TeaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2B708125518E31000ED754 /* Order_Afternoon_TeaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order_Afternoon_TeaTests.swift; sourceTree = "<group>"; };
+		DB2B708325518E31000ED754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2B708825518E31000ED754 /* Order_Afternoon_TeaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Order_Afternoon_TeaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2B708C25518E31000ED754 /* Order_Afternoon_TeaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order_Afternoon_TeaUITests.swift; sourceTree = "<group>"; };
+		DB2B708E25518E31000ED754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB2B706425518E2F000ED754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2B707A25518E31000ED754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2B708525518E31000ED754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB2B705E25518E2F000ED754 = {
+			isa = PBXGroup;
+			children = (
+				DB2B706925518E2F000ED754 /* Order_Afternoon_Tea */,
+				DB2B708025518E31000ED754 /* Order_Afternoon_TeaTests */,
+				DB2B708B25518E31000ED754 /* Order_Afternoon_TeaUITests */,
+				DB2B706825518E2F000ED754 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB2B706825518E2F000ED754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB2B706725518E2F000ED754 /* Order_Afternoon_Tea.app */,
+				DB2B707D25518E31000ED754 /* Order_Afternoon_TeaTests.xctest */,
+				DB2B708825518E31000ED754 /* Order_Afternoon_TeaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2B706925518E2F000ED754 /* Order_Afternoon_Tea */ = {
+			isa = PBXGroup;
+			children = (
+				DB2B706A25518E2F000ED754 /* AppDelegate.swift */,
+				DB2B706C25518E2F000ED754 /* SceneDelegate.swift */,
+				DB2B706E25518E2F000ED754 /* ViewController.swift */,
+				DB2B707025518E2F000ED754 /* Main.storyboard */,
+				DB2B707325518E30000ED754 /* Assets.xcassets */,
+				DB2B707525518E30000ED754 /* LaunchScreen.storyboard */,
+				DB2B707825518E30000ED754 /* Info.plist */,
+			);
+			path = Order_Afternoon_Tea;
+			sourceTree = "<group>";
+		};
+		DB2B708025518E31000ED754 /* Order_Afternoon_TeaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2B708125518E31000ED754 /* Order_Afternoon_TeaTests.swift */,
+				DB2B708325518E31000ED754 /* Info.plist */,
+			);
+			path = Order_Afternoon_TeaTests;
+			sourceTree = "<group>";
+		};
+		DB2B708B25518E31000ED754 /* Order_Afternoon_TeaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2B708C25518E31000ED754 /* Order_Afternoon_TeaUITests.swift */,
+				DB2B708E25518E31000ED754 /* Info.plist */,
+			);
+			path = Order_Afternoon_TeaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB2B706625518E2F000ED754 /* Order_Afternoon_Tea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2B709125518E31000ED754 /* Build configuration list for PBXNativeTarget "Order_Afternoon_Tea" */;
+			buildPhases = (
+				DB2B706325518E2F000ED754 /* Sources */,
+				DB2B706425518E2F000ED754 /* Frameworks */,
+				DB2B706525518E2F000ED754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Order_Afternoon_Tea;
+			productName = Order_Afternoon_Tea;
+			productReference = DB2B706725518E2F000ED754 /* Order_Afternoon_Tea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB2B707C25518E31000ED754 /* Order_Afternoon_TeaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2B709425518E31000ED754 /* Build configuration list for PBXNativeTarget "Order_Afternoon_TeaTests" */;
+			buildPhases = (
+				DB2B707925518E31000ED754 /* Sources */,
+				DB2B707A25518E31000ED754 /* Frameworks */,
+				DB2B707B25518E31000ED754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2B707F25518E31000ED754 /* PBXTargetDependency */,
+			);
+			name = Order_Afternoon_TeaTests;
+			productName = Order_Afternoon_TeaTests;
+			productReference = DB2B707D25518E31000ED754 /* Order_Afternoon_TeaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB2B708725518E31000ED754 /* Order_Afternoon_TeaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2B709725518E31000ED754 /* Build configuration list for PBXNativeTarget "Order_Afternoon_TeaUITests" */;
+			buildPhases = (
+				DB2B708425518E31000ED754 /* Sources */,
+				DB2B708525518E31000ED754 /* Frameworks */,
+				DB2B708625518E31000ED754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2B708A25518E31000ED754 /* PBXTargetDependency */,
+			);
+			name = Order_Afternoon_TeaUITests;
+			productName = Order_Afternoon_TeaUITests;
+			productReference = DB2B708825518E31000ED754 /* Order_Afternoon_TeaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB2B705F25518E2F000ED754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					DB2B706625518E2F000ED754 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					DB2B707C25518E31000ED754 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = DB2B706625518E2F000ED754;
+					};
+					DB2B708725518E31000ED754 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = DB2B706625518E2F000ED754;
+					};
+				};
+			};
+			buildConfigurationList = DB2B706225518E2F000ED754 /* Build configuration list for PBXProject "Order_Afternoon_Tea" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB2B705E25518E2F000ED754;
+			productRefGroup = DB2B706825518E2F000ED754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2B706625518E2F000ED754 /* Order_Afternoon_Tea */,
+				DB2B707C25518E31000ED754 /* Order_Afternoon_TeaTests */,
+				DB2B708725518E31000ED754 /* Order_Afternoon_TeaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB2B706525518E2F000ED754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2B707725518E30000ED754 /* LaunchScreen.storyboard in Resources */,
+				DB2B707425518E30000ED754 /* Assets.xcassets in Resources */,
+				DB2B707225518E2F000ED754 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2B707B25518E31000ED754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2B708625518E31000ED754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB2B706325518E2F000ED754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2B706F25518E2F000ED754 /* ViewController.swift in Sources */,
+				DB2B706B25518E2F000ED754 /* AppDelegate.swift in Sources */,
+				DB2B706D25518E2F000ED754 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2B707925518E31000ED754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2B708225518E31000ED754 /* Order_Afternoon_TeaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2B708425518E31000ED754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2B708D25518E31000ED754 /* Order_Afternoon_TeaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB2B707F25518E31000ED754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2B706625518E2F000ED754 /* Order_Afternoon_Tea */;
+			targetProxy = DB2B707E25518E31000ED754 /* PBXContainerItemProxy */;
+		};
+		DB2B708A25518E31000ED754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2B706625518E2F000ED754 /* Order_Afternoon_Tea */;
+			targetProxy = DB2B708925518E31000ED754 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB2B707025518E2F000ED754 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2B707125518E2F000ED754 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB2B707525518E30000ED754 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2B707625518E30000ED754 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB2B708F25518E31000ED754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB2B709025518E31000ED754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB2B709225518E31000ED754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Order_Afternoon_Tea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Order-Afternoon-Tea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB2B709325518E31000ED754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Order_Afternoon_Tea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Order-Afternoon-Tea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB2B709525518E31000ED754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Order_Afternoon_TeaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Order-Afternoon-TeaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Order_Afternoon_Tea.app/Order_Afternoon_Tea";
+			};
+			name = Debug;
+		};
+		DB2B709625518E31000ED754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Order_Afternoon_TeaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Order-Afternoon-TeaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Order_Afternoon_Tea.app/Order_Afternoon_Tea";
+			};
+			name = Release;
+		};
+		DB2B709825518E31000ED754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Order_Afternoon_TeaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Order-Afternoon-TeaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Order_Afternoon_Tea;
+			};
+			name = Debug;
+		};
+		DB2B709925518E31000ED754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Order_Afternoon_TeaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Order-Afternoon-TeaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Order_Afternoon_Tea;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB2B706225518E2F000ED754 /* Build configuration list for PBXProject "Order_Afternoon_Tea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2B708F25518E31000ED754 /* Debug */,
+				DB2B709025518E31000ED754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2B709125518E31000ED754 /* Build configuration list for PBXNativeTarget "Order_Afternoon_Tea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2B709225518E31000ED754 /* Debug */,
+				DB2B709325518E31000ED754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2B709425518E31000ED754 /* Build configuration list for PBXNativeTarget "Order_Afternoon_TeaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2B709525518E31000ED754 /* Debug */,
+				DB2B709625518E31000ED754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2B709725518E31000ED754 /* Build configuration list for PBXNativeTarget "Order_Afternoon_TeaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2B709825518E31000ED754 /* Debug */,
+				DB2B709925518E31000ED754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB2B705F25518E2F000ED754 /* Project object */;
+}
