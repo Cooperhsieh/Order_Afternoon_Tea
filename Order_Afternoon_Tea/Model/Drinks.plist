@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>drinks</key>
+		<string>春陽烏龍</string>
+		<key>price</key>
+		<integer>30</integer>
+	</dict>
+	<dict>
+		<key>drinks</key>
+		<string>桂花蜜烏龍</string>
+		<key>price</key>
+		<integer>50</integer>
+	</dict>
+	<dict>
+		<key>drinks</key>
+		<string>冬瓜檸檬粉條</string>
+		<key>price</key>
+		<integer>45</integer>
+	</dict>
+	<dict>
+		<key>drinks</key>
+		<string>翡翠凍檸檬</string>
+		<key>price</key>
+		<integer>45</integer>
+	</dict>
+	<dict>
+		<key>drinks</key>
+		<string>檸檬蜜烏龍</string>
+		<key>price</key>
+		<integer>50</integer>
+	</dict>
+	<dict>
+		<key>drinks</key>
+		<string>鳳梨蜜烏龍</string>
+		<key>price</key>
+		<integer>45</integer>
+	</dict>
+	<dict>
+		<key>drinks</key>
+		<string>甘蔗綠茶 </string>
+		<key>price</key>
+		<integer>45</integer>
+	</dict>
+	<dict>
+		<key>drinks</key>
+		<string>布丁烏龍鮮奶</string>
+		<key>price</key>
+		<integer>60</integer>
+	</dict>
+	<dict>
+		<key>drinks</key>
+		<string>紅茶鮮奶</string>
+		<key>price</key>
+		<integer>50</integer>
+	</dict>
+	<dict>
+		<key>drinks</key>
+		<string>萬丹紅豆鮮奶 </string>
+		<key>price</key>
+		<integer>60</integer>
+	</dict>
+	<dict>
+		<key>drinks</key>
+		<string>黑糖珍珠鮮奶</string>
+		<key>price</key>
+		<integer>50</integer>
+	</dict>
+	<dict>
+		<key>drinks</key>
+		<string>芝士瑪奇朵紅茶</string>
+		<key>price</key>
+		<integer>50</integer>
+	</dict>
+</array>
+</plist>
