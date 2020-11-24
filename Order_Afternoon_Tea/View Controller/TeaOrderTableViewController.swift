@@ -322,6 +322,12 @@ class TeaOrderTableViewController: UITableViewController {
     }
     
     
+    @IBAction func returnKeyboard(_ sender: Any) {
+        resignFirstResponder()
+    }
+    
+    
+    
     // MARK: UI LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
